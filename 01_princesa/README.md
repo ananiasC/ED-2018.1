@@ -11,7 +11,7 @@
 	Aprendi o funcionamento interno de uma lista e como usar um array como uma lista.
 
 ## Quanto tempo você gastou no total na atividade?
-	Em torno de 3horas.
+	Em torno de 3 horas.
 
 ## Informações
 	Programa criado em C++, utilizando o IDE Qt Creator.
