@@ -1,7 +1,17 @@
-#Princesa  
-	-Fiz preencherArray(), passarArma(), matarPessoa().  
-	-Fiz sozinho.  
-	-Aprendi o funcionamento de uma lista circular  
-	-Sei a resolução do problema com utilização de array.  
-	-Tenho dificuldade com o funcionamento interno de algumas funções interna da lista.  
-	-Levei cerca de 3 horas.
+## Princesa
+## O que você sabe fazer do que está sendo apresentado?
+	Sei fazer o preenchimento do array.  
+	Passagem da arma, tanto normalmente como com N saltos.
+	Matar um individuo seguindo as regras.
+
+## Como vocês dividiram/fizeram a atividade?
+	Realizei a atividade ao lado do meu amigo Yvinis. Porém já sabendo como implementar.
+
+## O que você aprendeu e o que ainda tem dificuldade?
+	Aprendi o funcionamento interno de uma lista e como usar um array como uma lista.
+
+## Quanto tempo você gastou no total na atividade?
+	Em torno de 3horas.
+
+## Informações
+	Programa criado em C++, utilizando o IDE Qt Creator.
