@@ -1,7 +1,18 @@
-#Fractais  
-	-Fiz os fractais arvore(), trigo(), gelo(), triangulo().  
-	-Fiz em conjunto com amigos, para pensar melhor na forma de construir cada fractal.  
-	-Aprendi manipulação de movimento e lógica de formação de alguns fractais.  
-	-Sabia a ideia básica para cada fractal e o conceito recursivo a ser usado em cada.  
-	-Dificuldade em desenvolver lógicamente de fractais mais complexo que acabei não fazendo como por exemplo o do Carpete.  
-	-Levei cerca de 4 horas
+## Fractais - Relatório atualizado 04-04-2018
+## O que você sabe fazer do que está sendo apresentado?
+	Implementação dos fractais trigo, gelo e triângulo.
+
+## Como vocês dividiram/fizeram a atividade?
+	Fiz em conjunto com Robson, Yvinis, Ronier e Calberton, tive bastante ajuda com o triangulo e o gelo  
+	por parte do Yvinis.
+
+## O que você aprendeu e o que ainda tem dificuldade?
+	Aprendi a lógica recursiva de um fractal. Mas ainda tenho bastante dificuldades, principalmente para  
+	definir lógicamente onde devo implementar e onde devo usar recursividade.
+
+## Quanto tempo você gastou no total na atividade?
+	Em torno de 8 horas com ajuda e intercalado entre os dias.
+
+## Informações
+	Programa feito em C++, utilizando o IDE Qt Creator.
+
