@@ -73,13 +73,34 @@ void gelo(Pen &p, int lado){
     }
 }
 
+
+void circulos(Pen &p, int lado){
+    if(lado < 2){
+        return;
+    }
+    for(int i = 0; i < 6; i++){
+        p.right(60);
+        p.circle(lado);
+        p.up();
+        p.walk(lado);
+        p.down();
+        circulos(p,lado/3);
+        p.up();
+        p.walk(-lado);
+        p.down();
+
+    }
+
+}
+
 void fractal(){
     int escolha;
     std::cout << "Digite o numero correspondente ao que deseja ver" << std::endl;
-    std::cout << "1 - Trigo" << std::endl;
+    std::cout << "1 - Arvore" << std::endl;
     std::cout << "2 - Triangulo" << std::endl;
-    std::cout << "3 - Arvore" << std::endl;
+    std::cout << "3 - Trigo" << std::endl;
     std::cout << "4 - Gelo" << std::endl;
+    std::cout << "5 - Circulos" << std::endl;
 
     std::cout << "Digite o numero:";
     std::cin >> escolha;
@@ -94,12 +115,14 @@ void fractal(){
     switch (escolha) {
     case 1:
         //posição de inicio do trigo
-        p.setXY(680, 700);
-
+        p.setXY(680, 500);
+        p.setColor(35,142,35);
         //faz o pincel apontar pra cima
         p.setHeading(90);
 
-        trigo(p,120);
+        p.setThickness(2);
+
+        arvore(p,100);
 
         p.wait();
     break;
@@ -115,14 +138,12 @@ void fractal(){
     break;
     case 3:
         //posição de inicio do trigo
-        p.setXY(680, 500);
-        p.setColor(35,142,35);
+        p.setXY(680, 700);
+
         //faz o pincel apontar pra cima
         p.setHeading(90);
 
-        p.setThickness(2);
-
-        arvore(p,100);
+        trigo(p,120);
 
         p.wait();
     break;
@@ -139,7 +160,19 @@ void fractal(){
 
         p.wait();
     break;
+    case 5:
+        //posição de inicio do fractal
+        p.setXY(680, 330);
+        //Cor do fractal
+        p.setColor(100,255,155);
 
+        p.setThickness(1);
+
+        circulos(p,250);
+
+        p.wait();
+
+    break;
     default:
         std::cout << "Numero não listado!" << std::endl;
     break;
