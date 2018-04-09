@@ -11,7 +11,7 @@
 	definir lógicamente onde devo implementar e onde devo usar recursividade.
 
 ## Quanto tempo você gastou no total na atividade?
-	Em torno de 8 horas com ajuda e intercalado entre os dias.
+	Em torno de 10 horas com ajuda e intercalado entre os dias.
 
 ## Informações
 	Programa feito em C++, utilizando o IDE Qt Creator.
