@@ -7,7 +7,7 @@
   
 ## O que você aprendeu e o que ainda tem dificuldade?  
 	Aprendi um pouco mais sobre recursidade, mas durante esse trabalho a dificuldade 
-  	foi bem maior, tive muitas dificuldades para esse trabalho.
+  	foi bem maior.
   
 ## Quanto tempo você gastou no total na atividade?
 	Em torno de dias com ajuda e intercalado.
