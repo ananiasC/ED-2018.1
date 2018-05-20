@@ -54,7 +54,7 @@ int main()
             if(event.type == sf::Event::KeyPressed){
                 if(event.key.control && (event.key.code == sf::Keyboard::Z)){
                     if(event.key.control){
-                        if(amb_atual != ambientes.begin()){
+                        if(amb_atual != ambientes.begin() && !ambientes.empty()){
                             cout << "control z" << endl;
                             amb_control_r.push_front(amb);
                             ambientes.pop_back();
@@ -68,7 +68,7 @@ int main()
                 }
                 else if(event.key.control && (event.key.code == sf::Keyboard::R)){
                     if(event.key.control){
-                        if(amb_atual != ambientes.end()){
+                        if(amb_atual != ambientes.end() && !amb_control_r.empty()){
                             cout << "control r" << endl;
                             amb_atual++;
                             if(amb_atual == ambientes.end())
