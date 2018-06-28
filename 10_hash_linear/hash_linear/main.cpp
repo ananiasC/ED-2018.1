@@ -58,7 +58,7 @@ struct HashLinear{ //linear probing
     }
 
     bool insert(Elem elem){
-        auto it = search(elem.key);
+        int it = search(elem.key);
 
         if(it == -1)
             return false;
