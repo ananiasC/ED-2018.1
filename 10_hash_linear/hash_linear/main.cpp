@@ -41,14 +41,14 @@ struct HashLinear{ //linear probing
     }
 
     int search(int key){
-        int return_search = key % this->capacity;
+        int base = key % this->capacity;
 
         int i = 0;
 
-        int pos = return_search;
+        int pos = base;
 
         while(vet[pos].first == NULL || vet[pos].second != VAZIO){
-            pos = (return_search+i*i) % capacity;
+            pos = (base+i*i) % capacity;
             ++i;
         }
         if(vet[pos].second == VAZIO)
